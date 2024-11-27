@@ -1,0 +1,479 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "WHH-RaceDraenei",
+        "full": "Warcraft: Heroes Handbook. Draenei Race",
+        "abbreviation": "WHH",
+        "version": "1.0",
+        "url": "https://www.gmbinder.com/share/-LFhhtssjN-teWCOregn",
+        "authors": [
+          "Jih",
+          "Tangerine"
+        ],
+        "convertedBy": [
+          "Admiral"
+        ],
+        "color": "813d9c"
+      }
+    ],
+    "edition": "classic",
+    "dateAdded": 1732687136,
+    "dateLastModified": 1732687136
+  },
+  "language": [
+    {
+      "name": "Draenei",
+      "source": "WHH-RaceDraenei",
+      "page": 18,
+      "type": "exotic",
+      "script": "Draeneic",
+      "typicalSpeakers": [
+        "Draenei"
+      ],
+      "entries": [
+        "The Draenei language, is a strange and complicated language for other races to learn. Seemingly having no resemblance with any Azerothian languages."
+      ]
+    }
+  ],
+  "race": [
+    {
+      "name": "Draenei",
+      "source": "WHH-RaceDraenei",
+      "page": 18,
+      "ability": [
+        {
+          "wis": 2
+        }
+      ],
+      "speed": {
+        "walk": 30
+      },
+      "size": [
+        "M"
+      ],
+      "heightAndWeight": {
+				"baseHeight": 90,
+				"heightMod": "1d10",
+				"baseWeight": 170,
+				"weightMod": "2d4"
+			},
+      "languageProficiencies": [
+        {
+          "common": true,
+          "other": true
+        }
+      ],
+      "age": {
+        "mature": 20,
+        "max": 99999
+      },
+      "resist": [
+        "necrotic"
+      ],
+      "traitTags": [
+        "Damage Resistance"
+      ],
+      "entries": [
+        "You share the following characteristics with other draenei.",
+        {
+          "type": "entries",
+          "name": "Age",
+          "entries": [
+            "Draenei mature slightly slower than humans, reaching adulthood in their early 20's, and can live to extraordinary age, become thousands of years old, often exceeding the ancient ages of night elves."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Alignment",
+          "entries": [
+            "Draenei are mostly good. Those who strive towards law are sages, priests, paladins, vindicators, or scholars. Those who tend toward chaos are warriors, rangers, or in other ways people more fond of pure fighting."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Size",
+          "entries": [
+            "Draenei are between 7 and 8 feet tall and somewhat muscular. Your size is Medium."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Shadow Resistance",
+          "entries": [
+            "You have resistance against necrotic damage."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Languages",
+          "entries": [
+            "You can speak, read, and write Common and {@language Draenei|WHH-RaceDraenei}."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Subrace",
+          "entries": [
+            "Three subraces of draenei exist: {@race Draenei (Broken)|WHH-SubraceDraenei|broken} draenei, {@race Draenei (Exodar)|WHH-SubraceDraenei|exodar} draenei, and {@race Draenei wwwww(Lightforged)|WHH-SubraceDraenei|lightforged} draenei. Choose one of them for your character."
+          ]
+        }
+      ],
+      "hasFluff": true,
+      "hasFluffImages": true,
+      "fluff": {
+        "_raceFluff": {
+          "name": "Draenei",
+          "source": "WHH-RaceDraenei"
+        },
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://warcraft.wiki.gg/images/a/aa/Draenei_Crest.png"
+            },
+            "title": "Draenei Crest"
+          }
+        ]
+      }
+    }
+  ],
+  "raceFluff": [
+    {
+      "name": "Draenei",
+      "source": "WHH-RaceDraenei",
+      "entries": [
+        {
+          "type": "quote",
+          "entries": [
+            "In moments of great strife, I gaze into the heavens and see just how far we have already come."
+          ],
+          "by": "Prophet Velen"
+        },
+        "Thousands of years ago, the titan Sargeras shattered the tranquility of Argus by offering the eredar immeasurable knowledge and power. The eredar were a knowledge-seeking race and accepted his offer. He bathed them in his fel might, turning them into demonic beings of the burning legion called Man'ari. The prophet Velen got a troubling vision of what his race would become, and fled Argus with his followers by the help of the divine Naaru, who renamed them draenei, or \"Exiled Ones\" in the common tongue.",
+        "The draenei refer to their corrupted brethren as man'ari, meaning \"Unnatural Being\". Although both originate from the eredar race, neither the draenei or man'ari consider themselves eredars anymore.",
+        {
+          "type": "entries",
+          "name": "Alien Appearance",
+          "entries": [
+            "While they stand tall and proud, they resemble no other race on Azeroth. Their skin ranges from rose white, to dark violet colors. They stand slightly taller than humans on average, ranging from well over 6 feet tall to just over 8 feet. They are generally more muscular than other races, with double jointed legs ending in hooves, weighing 250 pounds or more. Males and females are about the same height, and male are only marginally heavier than females.",
+            "Both genders have tendrils in their head as part of their hair or beard, and both have horns, it is common though for females to have drastically larger horns than males. They also have slender tails, males being considerably longer and thicker than females.",
+            "Broken draenei, although having many of their pure kins features have noticeable differences, their faces are less structured, and appear more flat than their kins beautiful features. They stand shorter than exodar draenei, their skin hard and cracked like stone, appearing more human than exodar draenei with single jointed legs."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "The Divine Naaru",
+          "entries": [
+            "During the draenei's journey, the enigmatic naaru race taught them the ways of the light, though they already had a certain experience with it through Velen and T'uure. The naaru explained that there were other forces in the cosmos that would stand against the Burning Legion.",
+            "The naaru bestowed a blessing, the Gift of the Naaru, upon the draenei to signify their new connection the light. Deeply affected by the naaru's words, the draenei vowed to honor the it and uphold the naaru's ideals."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Affiliation",
+          "entries": [
+            "Due to the draenei's friendly and honorable attitude, they tend to get along well with other races, especially those who belong to the Alliance who welcomed them into their allegiance, even though not all races return their kindness. Draenei have very strong ties with the night elves, who were the first of the Alliance to greet the draenei and welcome them.",
+            "Draenei hate orcs for the kins actions on Draenor, leading to a large distrust from the draenei side of the horde and its allied races."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Draenei Names",
+          "entries": [
+            "Draenei, unlike most races, do not have last names. Their parents give them a name at their birth. Upon a draenei reaching adulthood they choose a name for themselves that they keep for the rest of their life.",
+            {
+              "type": "list",
+              "style": "list-hang-notitle",
+              "items": [
+                {
+                  "type": "item",
+                  "name": "Male Names:",
+                  "entry": "Meolphi, Bimerd, Hiktin, Ocdam, Nosmas, Ondut, Broruk, Oter, Lacasik, Midirgerd, Drocrana"
+                },
+                {
+                  "type": "item",
+                  "name": "Female Names:",
+                  "entry": "Eshaatt, Ize, Ruka, Nalre, Hahse, Efae, Nerii, Asara, Velbus, Fuma, Oren, Suhe, Vumo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "subrace": [
+    {
+      "raceName": "Draenei",
+      "raceSource": "WHH-RaceDraenei",
+      "name": "Broken",
+      "source": "WHH-RaceDraenei",
+      "page": 18,
+      "ability": [
+        {
+          "con": 1
+        }
+      ],
+      "hasFluff": true,
+      "hasFluffImages": true,
+      "fluff": {
+        "_appendRaceFluff":{
+          "name": "Draenei",
+          "source": "WHH-RaceDraenei"
+        },
+        "entries": [
+          "As a broken draenei, you were left on Draenor as the legion invaded, your connection to the Naaru have been severed, leaving you an empty shell of your kin. The severance has disfigured your form, leaving you an outcast amongst the Exodar Draenei"
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://warcraft.wiki.gg/images/7/7c/Broken.jpg"
+            },
+            "title": "Broken Draenei"
+          }
+        ]
+      },
+      "entries": [
+				{
+					"type": "entries",
+					"name": "Ability Score Increase",
+					"entries": [
+						"Your Constitution score increases by 1."
+					]
+   			},
+        {
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"Accustomed to the unlit sky of Outland, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+        },
+        {
+          "type": "entries",
+          "name": "Elemental Bond",
+          "entries": [
+            "You know the {@spell frostbite|XGE} cantrip. When you reach 3rd level, you can cast the {@spell earth tremor|XGE} spell once per long rest. When you reach 5th level, you can also cast the {@spell gust of wind} spell once per long rest. Wisdom is your spellcasting ability for these spells."
+          ]
+        }
+      ],
+      "traitTags": [
+        "Damage Resistance",
+        "Sunlight Sensitivity"
+      ],
+      "darkvision": 60,
+      "additionalSpells": [
+        {
+          "ability": "wis",
+          "known": {
+            "-": [
+              "frostbite|XGE"
+            ]
+          },
+          "innate": {
+            "3": {
+              "daily": {
+                "1": [
+                  "earth tremor|XGE"
+                ]
+              }
+            },
+            "5": {
+              "daily": {
+                "1": [
+                  "gust of wind"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "raceName": "Draenei",
+      "raceSource": "WHH-RaceDraenei",
+      "name": "Exodar",
+      "source": "WHH-RaceDraenei",
+      "page": 18,
+      "ability": [
+        {
+          "str": 1
+        }
+      ],
+      "toolProficiencies": [
+        {
+          "jeweler's tools": true
+        }
+      ],
+      "hasFluff": true,
+      "hasFluffImages": true,
+      "fluff": {
+        "_appendRaceFluff":{
+          "name": "Draenei",
+          "source": "WHH-RaceDraenei"
+        },
+        "entries": [
+          "As an exodar draenei, you have a natural connection with the Naaru, strengthening your bond to the light. You've fled your planet of Argus from the Burning Legions crusade, forced into exile, for centuries you fled its legions before crash landing on the planet of Azeroth in the Exodar."
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://warcraft.wiki.gg/images/6/6f/Playable_Draenei.jpg"
+            },
+            "title": "Exodar Draenei"
+          }
+        ]
+      },
+      "entries": [
+				{
+					"type": "entries",
+					"name": "Ability Score Increase",
+					"entries": [
+						"Your Strength score increases by 1."
+					]
+   			},
+        {
+					"type": "entries",
+					"name": "Gemcutting",
+					"entries": [
+						"You are proficient with the {@item jeweler's tools}."
+					]
+        },
+        {
+          "type": "entries",
+          "name": "Gift of the Naaru",
+          "entries": [
+            "As an action, you can touch a creature and cause it to regain a number of hit points equal to your level. Once you use this trait, you can't use it again until you finish a long rest."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Heroic Presence",
+          "entries": [
+            "You can cast {@spell heroism} and {@spell divine favor} with this trait, using Wisdom as your spellcasting ability for them. Once you cast either spell, you can't cast it again with this trait until you finish a short or long rest."
+          ]
+        }
+      ],
+      "traitTags": [
+        "Damage Resistance",
+        "Tool Proficiency"
+      ],
+      "additionalSpells": [
+        {
+          "ability": "wis",
+          "innate": {
+            "-": {
+              "daily": {
+                "1": [
+                  "heroism",
+                  "divine favor"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "raceName": "Draenei",
+      "raceSource": "WHH-RaceDraenei",
+      "name": "Lightforged",
+      "source": "WHH-RaceDraenei",
+      "page": 18,
+      "ability": [
+        {
+          "cha": 1
+        }
+      ],
+      "resist": [
+        "radiant"
+      ],
+      "hasFluff": true,
+      "hasFluffImages": true,
+      "fluff": {
+        "_appendRaceFluff":{
+          "name": "Draenei",
+          "source": "WHH-RaceDraenei"
+        },
+        "entries": [
+          "As a lightforged draenei, you've commited yourself to a crusade against the burning legion, infusing your body with the holy light. After the legions defeat on Outland, you've traveled to the planet of Azeroth to lend your aid to its residents against the eternal Burning Legion."
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://warcraft.wiki.gg/images/0/06/Runi%2C_Time_Explorer.jpg"
+            },
+            "title": "Lightforged Draenei"
+          }
+        ]
+      },
+      "entries": [
+				{
+					"type": "entries",
+					"name": "Ability Score Increase",
+					"entries": [
+						"Your Charisma score increases by 1."
+					]
+   			},
+        {
+					"type": "entries",
+					"name": "Forged of Light",
+					"entries": [
+						"The holy light's warmth envelopes you. When you aren't wearing armor, your AC is 12 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use natural armor."
+					]
+        },
+        {
+          "type": "entries",
+          "name": "Holy Resistance",
+          "entries": [
+            "You have resistance to radiant damage."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Light's Judgement",
+          "entries": [
+            "You know the light cantrip. When you reach 3rd level, you can cast the guiding bolt spell once per long rest. When you reach 5th level, you can cast the branding smite spell once per long rest. Wisdom is your spellcasting ability for these spells."
+          ]
+        }
+      ],
+      "traitTags": [
+        "Damage Resistance",
+        "Natural Armor"
+      ],
+      "additionalSpells": [
+        {
+          "ability": "wis",
+          "known": {
+            "-": [
+              "light"
+            ]
+          },
+          "innate": {
+            "3": {
+              "daily": {
+                "1": [
+                  "guiding bolt"
+                ]
+              }
+            },
+            "5": {
+              "daily": {
+                "1": [
+                  "branding smite"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
